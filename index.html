@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOT BEANS WEB</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #000;
+            background-color: #a1a1a1;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        header .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            margin-right: 10px;
+            width: 90px;
+            height: 90px;
+        }
+
+        nav {
+            background-color: #000;
+            padding: 10px 0;
+            text-align: center;
+            width: 100%;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #fff;
+            color: #000;
+        }
+
+        .banner {
+            background-image: url('banner.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 220px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #000000;
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            color: #000;
+            width: 100%;
+        }
+
+        .section h2 {
+            color: #000;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .section p, .section ul {
+            margin-bottom: 20px;
+        }
+
+        .courses {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .course {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            width: 360px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            justify-content: center;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+            height: 10%;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        @media (max-width: 768px) {
+            .courses {
+                justify-content: flex-start;
+            }
+            .course {
+                width: 100%;
+            }
+        }
+
+        img {
+            width: 2%;
+            height: 2%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo-container">
+        <img src="logo.PNG" alt="logo">
+        <h1>HOT BEANS WEB</h1>
+    </div>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="Courses.html">Courses</a>
+    <a href="team.html">Team</a>
+    <a href="form.html">Apply</a>
+</nav>
+
+<div class="banner">
+    <div class="container">
+        <p>Welcome to HOT BEANS WEB, your ultimate destination for web development and career advancement. We are a passionate team of industry experts dedicated to fostering talent and connecting individuals with exciting career opportunities in the tech world. Our mission is to empower aspiring developers and designers through comprehensive, hands-on courses that cover the full spectrum of web technologies, including frontend and backend development, UI/UX design, and DevOps engineering.</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="section">
+        <h2>Job Details</h2>
+        <div class="courses">
+            <div class="course">
+                <h3>Frontend Development</h3>
+                <p>As a Frontend Developer at Hot Beans Web, you will be responsible for designing and implementing the user interface of our web applications. You will work closely with our backend developers, designers, and product managers to translate user needs into functional and engaging web experiences.</p>
+                <a href="Courses.html">Apply</a>
+            </div>
+            <div class="course">
+                <h3>Backend Development</h3>
+                <p>We are looking for a skilled Backend Developer to join our dynamic team at Hot Beans Web. The ideal candidate will be responsible for building and maintaining the server-side logic, ensuring high performance and responsiveness to requests from the front-end. You will also be responsible for integrating the front-end elements built by your colleagues into the application.</p>
+                <a href="Courses.html">Apply</a>
+            </div>
+            <div class="course">
+                <h3>Full Stack Development</h3>
+                <p>We are seeking a talented and experienced Full Stack Developer to join our dynamic team. The ideal candidate will be proficient in both front-end and back-end development, capable of handling projects from conception to deployment. You will work closely with our product and design teams to deliver high-quality software solutions that meet our clients' needs.</p>
+                <a href="Courses.html">Apply</a>
+            </div>
+            <div class="course">
+                <h3>DevOps Engineer</h3>
+                <p>As a DevOps Engineer at Hot Beans Web, you will be responsible for developing and maintaining the infrastructure and deployment processes of our applications. You will work closely with our development teams, system administrators, and product managers to ensure seamless integration and delivery of software products. Your role will be pivotal in automating processes, enhancing system reliability, and fostering a culture of continuous improvement.</p>
+                <a href="Courses.html">Apply</a>
+            </div>
+            <div class="course">
+                <h3>UI/UX Design</h3>
+                <p>As a UI/UX Designer at [Your Company Name], you will be responsible for creating intuitive and visually appealing user interfaces for our digital products. You will collaborate closely with cross-functional teams to understand user needs and business requirements, and translate them into elegant and functional design solutions. Your designs will not only enhance user experience but also align with our brand identity and business goals.</p>
+                <a href="Courses.html">Apply</a>
+            </div>
+            <div class="course">
+                <h3>Technical Leadership</h3>
+                <p>We are seeking a seasoned Technical Leader to join our dynamic team. The ideal candidate will possess a blend of technical expertise and leadership skills to drive innovation, mentor team members, and ensure the successful delivery of projects. This role requires a strategic mindset, excellent communication abilities, and a passion for technology. If you thrive in a fast-paced environment and are ready to make an impact, we want to hear from you!</p>
+                <a href="Courses.html">Apply</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="section">
+        <h2>About Us</h2>
+        <p>At HOT BEANS WEB, we believe in the transformative power of education and mentorship. Our team comprises seasoned professionals with extensive experience in various tech fields, committed to delivering high-quality, practical training. We understand the dynamic nature of the tech industry and strive to stay ahead of the curve by continuously updating our curriculum to reflect the latest trends and technologies. Our state-of-the-art learning platform offers an immersive experience, combining interactive lessons, real-world projects, and personalized support. Whether you’re a beginner looking to break into the industry or an experienced professional aiming to upskill, HOT BEANS WEB is here to guide you every step of the way.</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like more information about our courses, please don't hesitate to get in touch. You can reach us via the following methods:</p>
+        <ul>
+            Email: info@hotbeansweb.com<br>
+            Phone: (123) 456-7890<br>
+            Address: 123 New City College<br>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <div class="social-icons">
+        <a href="https://www.facebook.com"><img src="facebook.PNG" alt="Facebook"></a>
+        <a href="https://www.twitter.com"><img src="twitter.PNG" alt="Twitter"></a>
+        <a href="https://www.instagram.com"><img src="instagram.PNG" alt="Instagram"></a>
+    </div>
+    <p>&copy; 2024 HOT BEANS WEB. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
