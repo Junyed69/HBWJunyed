@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOT BEANS WEB</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #000;
+            background-color: #a1a1a1;
+        }
+ 
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        header .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            margin-right: 10px;
+            width: 90px;
+            height: 90px;
+        }
+ 
+        nav {
+            background-color: #000;
+            padding: 10px 0;
+            text-align: center;
+        }
+ 
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+ 
+        nav a:hover {
+            background-color: #fff;
+            color: #000;
+        }
+ 
+        .banner {
+            background-image: url('banner.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #000000;
+            text-align: center;
+            font-size: 24px;
+        }
+ 
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+ 
+        .section {
+            margin-bottom: 40px;
+            color: #000;
+            width: 100%;
+        }
+
+        .section h2 {
+            color: #000;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .section p, .section ul {
+            margin-bottom: 20px;
+        }
+ 
+        .courses {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+ 
+        .course {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            width: 360px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+        
+	    background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+            height: 10%;
+        }
+ 
+        .social-icons {
+            margin-top: 10px;
+        }
+ 
+        .social-icons a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+ 
+        @media (max-width: 768px) {
+            .courses {
+                justify-content: flex-start;
+            }
+            .course {
+                width: 100%;
+            }
+        }
+
+	img {
+		width: 2%;
+		height: 2%;
+	}
+    </style>
+</head>
+<body>
+ 
+    <header>
+        <div class="logo-container">
+            <img src="logo.PNG" alt="logo">
+            <h1>HOT BEANS WEB</h1>
+        </div>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Courses.html">Courses</a>
+        <a href="team.html">Team</a>
+        <a href="form.html">Apply</a>
+    </nav>
+ 
+<div class="banner">
+    <div class="container">
+        <p>Discover cutting-edge courses at HOT BEANS WEB tailored to elevate your skills in web development and design. From beginner-friendly introductions to advanced specializations, our curated curriculum covers frontend, backend, UI/UX, and DevOps. Dive into hands-on projects, learn from industry experts, and unlock your full potential in the tech world.</p>
+    </div>
+</div>
+ 
+<div class="container">
+    <div class="section">
+        <h2>Courses</h2>
+        <div class="courses">
+
+            <div class="course">
+                <h3>Frontend Development</h3>
+                <p>What our course will teach you:</p>
+                <ul>
+                    <li>HTML & CSS Fundamentals: Lay the foundation for web development with essential HTML and CSS skills.</li><br>
+                    <li>JavaScript Essentials: Master JavaScript to add interactivity and dynamism to your web projects.</li><br>
+                    <li>Responsive Web Design: Learn to create websites that adapt seamlessly to different screen sizes and devices.</li><br>
+                    <li>Frontend Frameworks: Gain expertise in modern frameworks like React and Vue.js for efficient UI development.</li><br>
+                    <li>Web Performance Optimization: Optimize website speed and performance for enhanced user experience.</li><br>
+                    <li>Accessibility Best Practices: Ensure your websites are accessible to users of all abilities.</li><br>
+                </ul>
+                <a href="form.html">Enroll Now</a>
+            </div>
+
+            <div class="course">
+                <h3>Backend Development</h3>
+                <p>What our course will teach you:</p>
+                <ul>
+                    <li>Programming Fundamentals: Master fundamental programming concepts in languages like Python, JavaScript, or Java to build robust backend systems.</li><br>
+                    <li>Database Management: Learn how to design and manage databases using SQL or NoSQL technologies to store and retrieve data efficiently.</li><br>                    
+                    <li>Server-Side Frameworks: Dive into popular backend frameworks like Node.js, Django, or Spring Boot to streamline development and enhance scalability.</li><br>                       
+                    <li>API Development: Explore RESTful and GraphQL APIs to facilitate communication between the frontend and backend of web applications.</li><br>                      
+                    <li>Authentication & Authorization: Implement secure authentication and authorization mechanisms to protect sensitive data and resources.</li><br>
+                    <li>Web Security Best Practices: Learn about common security vulnerabilities and how to mitigate risks, ensuring the integrity and confidentiality of your applications.</li><br>
+                </ul>
+                <a href="form.html">Enroll Now</a>
+            </div>
+
+            <div class="course">
+                <h3>Full Stack Development</h3>
+                <p>What our course will teach you:</p>
+                <ul>
+                    <li>Frontend & Backend Fundamentals: Master essential technologies like HTML, CSS, JavaScript, and backend frameworks like Node.js or Django.</li><br>
+                    <li>Database Management: Learn to work with databases, including SQL and NoSQL, for effective data storage and retrieval.</li><br>                     
+                    <li>RESTful APIs: Design and implement APIs to facilitate communication between frontend and backend systems.</li><br>                       
+                    <li>Version Control with Git: Collaborate efficiently with team members and manage code repositories using Git.</li><br>                       
+                    <li>Web Security Best Practices: Understand and implement essential security measures to protect web applications.</li><br>                       
+                    <li>Deployment and DevOps: Learn deployment strategies and essential DevOps practices for efficient development workflows.</li><br>                       
+                </ul>
+                <a href="form.html">Enroll Now</a>
+            </div>
+
+            <div class="course">
+                <h3>DevOps Engineer</h3>
+                <p>What our course will teach you:</p>
+                <ul>
+                    <li>Infrastructure as Code (IaC): Automate infrastructure deployment for scalability and reliability.</li><br>
+                    <li>CI/CD Pipelines: Master continuous integration and continuous deployment for rapid and reliable software delivery.</li><br>                       
+                    <li>Containerization with Docker: Learn to containerize applications for efficient deployment and management.</li><br>                   
+                    <li>Orchestration with Kubernetes: Manage containerized environments at scale with Kubernetes.</li><br>                    
+                    <li>Monitoring and Logging: Implement robust monitoring and logging solutions for system performance insights.</li><br>                       
+                    <li>Cloud Platforms: Leverage AWS, Azure, or GCP to build scalable infrastructure in the cloud.</li><br>
+                    <li>Security Best Practices: Understand and implement security principles for DevOps environments.</li><br>
+                <a href="form.html">Enroll Now</a>
+            </div>
+            
+            <div class="course">
+                <h3>UI/UX Design</h3>
+                <p>What our course will teach you:</p>
+                <ul>
+                    <li>Fundamentals of UI/UX Design: Understand the core principles and differences between User Interface (UI) and User Experience (UX) design.</li><br>
+                    <li>User Research and Analysis: Learn techniques for gathering and analyzing user data to inform design decisions.</li><br>                       
+                    <li>Wireframing and Prototyping: Master the process of creating wireframes and interactive prototypes to visualize design concepts.</li><br>                   
+                    <li>Visual Design Principles: Explore essential design principles, including color theory, typography, and layout, to create visually appealing interfaces.</li><br>                    
+                    <li>Usability Testing: Conduct usability tests to gather feedback and improve your designs based on user behavior and preferences.</li><br>                       
+                    <li>Design Tools Mastery: Gain proficiency in industry-standard design tools like Sketch, Figma, and Adobe XD.</li><br>
+                <a href="form.html">Enroll Now</a>
+            </div>
+
+            <div class="course">
+                <h3>Technical Leadership</h3>
+                <p>What our course will teach you:</p>
+                <ul>
+                    <li>Leadership and Management Skills: Develop essential leadership qualities and management techniques to effectively lead technical teams.</li><br>
+                    <li>Project Management: Learn to plan, execute, and oversee technical projects using industry-standard methodologies like Agile and Scrum.</li><br>                       
+                    <li>Team Building and Collaboration: Foster a collaborative team environment and build strong, cohesive teams.</li><br>                   
+                    <li>Communication Skills: Enhance your ability to communicate complex technical concepts to diverse stakeholders.</li><br>                    
+                    <li>Strategic Thinking: Cultivate strategic thinking and decision-making skills to drive technology initiatives.</li><br>                       
+                    <li>Mentorship and Coaching: Learn to mentor and coach team members, fostering professional growth and development.</li><br>
+                <a href="form.html">Enroll Now</a>
+            </div>
+        </div>
+    </div> 
+ </div> 
+
+ <div class="container">
+    <div class="section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like more information about our courses, please don't hesitate to get in touch. You can reach us via the following methods:</p>
+        <ul>
+            Email: info@hotbeansweb.com<br>
+            Phone: (123) 456-7890<br>
+            Address: 123 New City College<br>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <div class="social-icons">
+        <a href="https://www.facebook.com"><img src="facebook.png" alt="Facebook"></a>
+        <a href="https://www.twitter.com"><img src="twitter.png" alt="Twitter"></a>
+        <a href="https://www.instagram.com"><img src="instagram.png" alt="Instagram"></a>
+    </div>
+    <p>&copy; 2024 HOT BEANS WEB. All rights reserved.</p>
+</footer>
+ 
+</body>
+</html>

@@ -1,0 +1,61 @@
+<html>
+<head>
+    <body>
+        <style>
+
+            .container {
+                max-width: 360px;
+                margin: 0 auto;
+                padding: 20px;
+                display: inline;
+                align-items: center;
+                text-align: center;
+            }
+
+            h1{
+                text-align: center;
+            }
+            h2{
+                text-align: center;
+            }
+        </style>
+        <br>
+        <h1>Job Application</h1>
+        <h2> Please Enter Your Details Below </h2>
+        <div class="container">
+            <form action="/submit" method="post">
+                <name>First Name</name>
+                <input type="text">
+                <name>Last Name</name>
+                <input type="text">
+                <br>
+                <br>
+                <name>Age</name>
+                <input type="number">
+                <select>
+                    <name>Gender</name>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                </br>
+                </br>
+                <br>
+                <br>
+                <name>Upload your CV (Should be in .doc or .pdf)</name>
+                <button type="upload">Upload</button>
+                </br>
+                <br>
+                <textarea rows="5" cols="50"></textarea>
+                </br>
+                <br>
+                <br>
+                <button type="submit">Submit</button>
+                <br />
+                <br />
+                <a href="index.html">Home</a>
+                </br>
+            </form>
+        </div>
+    </body>
+</head>
+</html>

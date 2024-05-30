@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOT BEANS WEB</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #000;
+            background-color: #a1a1a1;
+        }
+ 
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        header .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            margin-right: 10px;
+            width: 90px;
+            height: 90px;
+        }
+ 
+        nav {
+            background-color: #000000;
+            padding: 10px 0;
+            text-align: center;
+        }
+ 
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+ 
+        nav a:hover {
+            background-color: #fff;
+            color: #000;
+        }
+ 
+        .banner {
+            background-image: url('banner.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 210px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #000000;
+            text-align: center;
+            font-size: 24px;
+        }
+ 
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+ 
+        .section {
+            margin-bottom: 40px;
+            color: #000;
+            width: 100%;
+        }
+
+        .section h2 {
+            color: #000;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .section p, .section ul {
+            margin-bottom: 20px;
+        }
+ 
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+ 
+        .team {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+ 
+        footer {
+        
+	    background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+            height: 10%;
+        }
+ 
+        .social-icons {
+            margin-top: 10px;
+        }
+ 
+        .social-icons a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+ 
+        @media (max-width: 768px) {
+            .courses {
+                justify-content: flex-start;
+            }
+            .course {
+                width: 100%;
+            }
+        }
+
+	img {
+		width: 2%;
+		height: 2%;
+	}
+
+    </style>
+</head>
+<body>
+ 
+    <header>
+        <div class="logo-container">
+            <img src="logo.PNG" alt="logo">
+            <h1>HOT BEANS WEB</h1>
+        </div>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Courses.html">Courses</a>
+        <a href="team.html">Team</a>
+        <a href="form.html">Apply</a>
+    </nav>
+ 
+<div class="banner">
+    <div class="container">
+        <p>Our team comprises highly skilled individuals who are passionate about their roles. John Doe, our Lead Developer, brings over a decade of experience in web development, leading numerous successful projects. Jane Smith, our UI/UX Designer, is dedicated to creating intuitive user interfaces and has earned recognition through several design awards. Michael Johnson, our Backend Engineer, specializes in optimizing systems for maximum efficiency, ensuring our platforms run seamlessly. Together, they form a dynamic team committed to delivering top-notch solutions for our clients.</p>
+    </div>
+</div>
+ 
+<div class="container">
+    <div class="section">
+        <h2> Our Team </h2>
+        <div class="team-members">
+            <div class="team">
+                <h3>John Doe</h3>
+                <p>Lead Developer</p>
+                <p>John has over 10 years of experience in web development and has led numerous successful projects.</p>
+            </div>
+
+            <div class="team">
+                <h3>Jane Smith</h3>
+                <p>UI/UX Designer</p>
+                <p>Jane is passionate about creating intuitive user interfaces and has won several design awards.</p>
+            </div>
+
+            <div class="team">
+                <h3>Michael Johnson</h3>
+                <p>Backend Engineer</p>
+                <p>Michael specializes in backend technologies and has optimized our systems for maximum efficiency.</p>
+            </div>
+
+            <div class="team">
+                <h3>Alex Patel</h3>
+                <p>Backend Engineer</p>
+                <p>Expert in CI/CD pipelines and cloud infrastructure, ensuring smooth deployment and scalability.</p>
+            </div>
+
+            <div class="team">
+                <h3>Sophia Nguyen</h3>
+                <p>UI/UX Design</p>
+                <p>Crafting intuitive interfaces with creativity and user-centric design principles.</p>
+            </div>
+
+            <div class="team">
+                <h3>David Thompson</h3>
+                <p>Technical Leadership</p>
+                <p>Seasoned leader aligning technical solutions with business goals, driving project success.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like more information about our courses, please don't hesitate to get in touch. You can reach us via the following methods:</p>
+        <ul>
+            Email: info@hotbeansweb.com<br>
+            Phone: (123) 456-7890<br>
+            Address: 123 New City College<br>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <div class="social-icons">
+        <a href="https://www.facebook.com"><img src="facebook.png" alt="Facebook"></a>
+        <a href="https://www.twitter.com"><img src="twitter.png" alt="Twitter"></a>
+        <a href="https://www.instagram.com"><img src="instagram.png" alt="Instagram"></a>
+    </div>
+    <p>&copy; 2024 HOT BEANS WEB. All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>
